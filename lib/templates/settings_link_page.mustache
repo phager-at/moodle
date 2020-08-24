@@ -147,5 +147,5 @@
 </div>
 
 {{#js}}
-    require(['core/settings/suggestions']);
+    require(['core/settings/suggestions'], function(Suggestions) { Suggestions.init(); });
 {{/js}}
